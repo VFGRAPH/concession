@@ -9,7 +9,7 @@
 
 ?>
 
-<h1>JE SUIS CONTENT</h1>
+<h1>JE SUIS UN VEHICULE CONTENT</h1>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
@@ -32,7 +32,11 @@
 	</header><!-- .entry-header -->
 
 	<?php concession_post_thumbnail(); ?>
-
+      <div>
+        <p></p>marque : <?php the_field("marque"); ?></p>
+        <p>prix : <?php the_field("prix"); ?></p>
+        <p>Année de sortie : <?php the_field("annee_modele"); ?></p>
+      </div>
 	<div class="entry-content">
 		<?php
 		the_content(
