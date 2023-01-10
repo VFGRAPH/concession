@@ -9,7 +9,7 @@
 
 ?>
 
-<h1>JE SUIS CONTENT</h1>
+<h1>JE SUIS UN VEHICULE CONTENT</h1>
 
 <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
 	<header class="entry-header">
